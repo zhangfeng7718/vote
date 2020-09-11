@@ -1,0 +1,49 @@
+.pagination{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    padding: 20px 40px 40px 40px;
+    background-color: #F8F8FF;
+}
+
+.itemauthor{
+    display: block;
+    float: left;
+}
+
+.itemdeadline{
+    display: block;
+    float: right;
+    font-size: 13px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix{zoom: 1;}
+
+.linkbutton{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    line-height: 35px;
+    margin-left: 50px;
+}
+.linkbutton:hover{
+    background-color: #c0c0c0;
+}
+.username{
+    margin-top: 5px;
+    margin-left: 15px;
+}

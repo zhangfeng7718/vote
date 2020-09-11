@@ -1,0 +1,83 @@
+voteview-header{
+    width: 100%;
+}
+.voteview-header-left{
+    float: left;
+    width: 75%;
+}
+.voteview-logo{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix{zoom: 1;}
+
+.voteview-logo{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 9999px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.voteview-selection{
+    color: blue;
+}
+.layout{
+    background-color: #F8F8FF;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.voteitem{
+    width: 100%;
+    margin-top: 5px;
+}
+.voteitem-main{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding: 10px 4px;
+}
+.voteitem-option{
+    float: left;
+}
+.voteitem-ticket{
+    float: right;
+    text-align: center;
+}
+.voteitem-option-content{
+    padding-right: 10px;
+}
+.show-button{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 16px;
+    padding: 5px 0;
+    background-color: #fff;
+    outline: none;
+    border: 0;
+    color: blue;
+}
+.voteitem-ticket-text{
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+    float: right;
+    width: 45px;
+}
+.voteitem-avatar{
+    padding: 0 4px;
+    margin-top: 4px;
+}
+.deadline{
+    color: #c0c0c0;
+    font-size: 14px;
+}

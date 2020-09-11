@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+ul,dl,ol{list-style: none;}
+a{text-decoration: none;}
+.hide{opacity: 0; width: .3rem;}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix{zoom: 1;}
+html,body{width: 100%;}
+html{font-size: 10000vw/500;}
+.container{
+    padding: 20px 40px 40px 40px;
+}
+.outside{
+    background-color: #F8F8FF;
+    min-height: 100%;
+}
